@@ -665,3 +665,25 @@ This test helped motivate the redesign of the real-time control loop.
 [Watch the ROS / RViz latency demonstration](media/demo/ros_delay.mp4)
 
 
+## Third-Party Software and Assets
+
+This project relies on several external robotics tools, libraries and robot models.
+
+### Software
+
+- **ROS Noetic** — robot communication middleware
+- **MoveIt** — inverse kinematics and motion planning
+- **RViz** — robot-state and planning visualisation
+- **Unity ROS-TCP Connector** — communication between Unity and ROS
+- **BioIK** — inverse-kinematics solver used in the optimized Unity architecture
+- **Arduino Braccio Library** — servo control for the physical Braccio arm
+
+### Robot Models and Assets
+
+The original Braccio CAD / URDF resources were obtained from external open-source resources and adapted for use in the Unity and ROS environments.
+
+The original CAD model was not created by me.
+
+> Source links will be added where the original repositories can be identified.
+
+Third-party code and assets are not claimed as original work in this repository.
