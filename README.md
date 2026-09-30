@@ -584,6 +584,33 @@ My primary contributions were:
 Where project assets or implementation were contributed by teammates, external repositories or third-party libraries, they are not presented as my individual work.
 
 ---
+## Team and Contributions
+
+This project was completed as a team academic project by:
+
+- **Jessica Dichakdjian**
+- **Lou-Anna Beignon**
+- **Josué Marmól**
+
+This repository is maintained as part of my personal robotics portfolio and focuses primarily on the parts of the system I personally implemented or integrated.
+
+### My Contributions
+
+My work included:
+
+- Meta Quest / XR controller tracking in Unity
+- Unity ↔ ROS communication
+- ROS development and debugging on Ubuntu
+- ROS ↔ Arduino communication
+- physical Braccio hardware integration
+- Braccio URDF / RViz integration
+- testing of the MoveIt / ROS architecture
+- debugging the virtual-to-physical control pipeline
+- integration of BioIK into the optimized Unity control architecture
+- Unity → Arduino serial communication
+- physical-system testing and teleoperation validation
+
+Other project components were developed collaboratively and are not presented as my individual work.
 
 # Third-Party Components
 
