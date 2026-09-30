@@ -627,9 +627,41 @@ From an engineering perspective, this project demonstrates experience with:
 - latency-driven system redesign
 
 ---
+# Demonstrations
 
-## Project Status
+## Final Physical Teleoperation
 
-✅ **Completed academic prototype**
+The final prototype used the optimized control pipeline:
 
-The repository is currently being reconstructed and documented from the original project files for portfolio purposes.
+**Meta Quest → Unity → BioIK → Serial → Arduino → Braccio**
+
+
+[Watch the final physical teleoperation demo](media/demo/braccio_demo.mp4)
+
+---
+
+## Meta Quest / Unity Connection
+
+This demonstration shows the XR controller being tracked inside Unity and used to define the robot end-effector target.
+
+[Watch the Meta Quest / Unity connection demo](media/demo/meta_unity_connection.mp4)
+
+---
+
+## ROS / Arduino Integration
+
+This earlier development test shows communication between the ROS-side control pipeline and the Arduino-controlled Braccio.
+
+[Watch the ROS / Arduino test](media/demo/arduino_ros_testing.mp4)
+
+---
+
+## ROS / MoveIt Latency Observation
+
+The first architecture was functional, but during XR teleoperation the ROS / MoveIt pipeline introduced noticeable delay.
+
+This test helped motivate the redesign of the real-time control loop.
+
+[Watch the ROS / RViz latency demonstration](media/demo/ros_delay.mp4)
+
+
