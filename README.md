@@ -64,6 +64,7 @@ Third-party frameworks, robot models and libraries are acknowledged below and ar
 # System Development
 
 ## Version 1 — ROS-Based Architecture
+![Initial ROS-based teleoperation architecture](media/diagrams/ros_architecture.png)
 
 The first implementation followed a conventional robotics middleware architecture:
 
@@ -235,6 +236,7 @@ This led us to redesign the architecture around the primary requirement:
 # Version 2 — Optimized Control Architecture
 
 Inverse kinematics was moved directly into Unity using **BioIK**.
+![Optimized Unity/BioIK teleoperation architecture](media/diagrams/bioik_architecture.png)
 
 The final control architecture became:
 
